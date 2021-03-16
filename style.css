@@ -1,0 +1,58 @@
+.modal-style {
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: lightblue;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.paragraphs {
+    text-align: center;
+}
+
+.option-btns {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    font-size: 24px;
+    width: 33.3333%;
+    background-color: pink;
+    margin-top: 3%;
+
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-text {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.again-btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    font-size: 24px;
+    width: 33.3333%;
+    background-color: pink;
+    margin-top: 3%;
+}
